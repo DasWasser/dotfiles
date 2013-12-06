@@ -18,7 +18,6 @@ hc keyunbind --all
 # keybindings
 Mod=Mod1 # alt key
 Sup=Mod4 # super key
-hc keybind $Sup-space spawn dmenu-launch
 # source all our keybindings
 for f in ~/.config/herbstluftwm/keybindings/*.sh; do . $f; done
 
