@@ -19,3 +19,6 @@ _darcs
 
 # Ignore our git repos
 \.repos
+
+# Ignore vim undo history files
+\*.un~
