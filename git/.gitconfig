@@ -58,3 +58,6 @@
 	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
 [core]
 	excludesfile = ~/.gitignore_global
+[user]
+	name = DasWasser
+	email = DasWasser@localhost
