@@ -11,3 +11,5 @@ hc keybind $Sup-Shift-f spawn chromium
 hc keybind $Mod-t spawn urxvtc -e zsh --login
 
 hc keybind $Sup-space spawn ~/usr/sbin/dmenu-launch
+
+#hc keybind $Mod-tab spawn skippy-xd
