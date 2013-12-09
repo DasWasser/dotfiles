@@ -1,0 +1,37 @@
+set visualbell
+set ttyfast
+
+" Skeleton files
+autocmd! BufNewFile * silent! 0r ~/.vim/skel/tmpl.%:e
+
+" We're going to learn to love vim the hard way
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
+
+" Less shift key pressing
+nnoremap ; :
+
+" Less escape key pressing
+inoremap kj <ESC>
+
+" Reload .vimrc after saving
+autocmd BufWritePost .vimrc source %
+
+" Save when losing focus
+au FocusLost * :wa
+
+" Set tabs to spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" If no file specified, open NERDTree
+autocmd vimenter * if !argc() | NERDTree | endif
