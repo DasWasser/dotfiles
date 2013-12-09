@@ -1,0 +1,4 @@
+Bundle 'lukaszkorecki/workflowish'
+Bundle 'dgryski/vim-godef'
+Bundle 'tpope/vim-git'
+Bundle 'mhinz/vim-tmuxify'
